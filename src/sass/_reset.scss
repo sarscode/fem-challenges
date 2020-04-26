@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  &::before {
+    box-sizing: inherit;
+  }
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  background-color: $bg-light;
+  color: $text-default;
+  font-family: $base-font-family;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}

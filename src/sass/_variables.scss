@@ -1,0 +1,35 @@
+// --------------------------------
+// Typography
+// --------------------------------
+$base-font-family: 'Montserrat', sans-serif;
+$base-font-size: 15px;
+$base-font-weight: 700;
+
+// -------------------------------
+// Colors Palette
+// -------------------------------
+$grayish-blue-lighter: hsl(240, 78%, 98%);
+$grayish-blue-light: hsl(234, 14%, 74%);
+$grayish-blue: hsl(233, 13%, 49%);
+$grayish-blue-dark: hsl(232, 13%, 33%);
+$black: #333;
+// Gradients
+$linear-gradient: linear-gradient(
+  120deg,
+  hsl(236, 72%, 79%),
+  hsl(237, 63%, 64%)
+);
+
+// Background colors
+$bg-primary: $linear-gradient;
+$bg-light: $grayish-blue-lighter;
+
+// Typography colors
+$text-default: $black;
+$text-primary: $grayish-blue;
+$text-secondary: $grayish-blue-light;
+$text-light: $grayish-blue-lighter;
+
+// ---------------------------------
+// Breakpoints
+// ---------------------------------
